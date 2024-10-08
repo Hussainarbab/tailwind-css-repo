@@ -8,15 +8,17 @@
 <body>
   <nav>
     <ul class="hidden md:flex bg-slate-900 text-white py-5 text-center items-center pl-[27%]  ">
-        <li class="px-5 text-2xl items-center text-center">Home</li>
-        <li class="px-5 text-2xl items-center text-center">About</li>
-        <li class="px-5 text-2xl items-center text-center">Services</li>
-        <li class="px-5 text-2xl items-center text-center">Skills</li>
-        <li class="px-5 text-2xl items-center text-center">Contact</li>
+      
+        <a href="#home" class="px-5 text-2xl items-center text-center hover:border-b-2 border-red-500">Home</a>
+        <a href="#about" class="px-5 text-2xl items-center text-center hover:border-b-2 border-red-500">About</a>
+        <a href="#services" class="px-5 text-2xl items-center text-center hover:border-b-2 border-red-500">Services</a>
+        <a href="#skills" class="px-5 text-2xl items-center text-center hover:border-b-2 border-red-500">Skills</a>
+        <a href="#contacts" class="px-5 text-2xl items-center text-center hover:border-b-2 border-red-500">Contacts</a>
+       
     </ul>
   </nav>
 
-  <section class="w-[100%] bg-cover bg-no-repeat text-center h-screen " style="background-image: url(./images.jpg);">
+  <section id="home" class="w-[100%] bg-cover bg-no-repeat text-center h-screen " style="background-image: url(./images.jpg);">
 
 
     <h1 class="text-5xl font-medium pt-[100px] text-green-900 bold ">Landing Page</h1>
@@ -34,7 +36,7 @@
 
   </section>
 
-  <section class="bg-black py-[40px] item-center">
+  <section id="about" class="bg-slate-600 py-[40px] item-center">
     <div>
         <h1 class="text-center text-white text-4xl pt-[5%]">About Us</h1>
         <div  class=" block md:flex justify-around item-center my-10 text-center">
@@ -58,5 +60,51 @@
         </div>
       </div>
   </section>
+
+
+  <section id="services" class="text-center text-4xl font-medium pt-5 bg-slate-600">
+    <h1 class="text-3xl mb-10 text-center text-white">Our Services</h1>
+  
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-3 items-center justify-around px-5">
+      <div class="bg-white py-[25px] shadow-2xl">
+        <img class="mx-auto mb-2" src="./icons/icons8-setting-50.png" alt="">
+        <h1 class="text-xl text-center">Corporate Solution</h1>
+        <p class="text-xs">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> A dolor optio aut,</p>
+      </div>
+  
+      <div class="bg-white py-[25px] shadow-2xl">
+        <img class="mx-auto mb-6" src="./icons/icons8-call-center-32.png" alt="">
+        <h1 class="text-xl text-center">Call Center Solution</h1>
+        <p class="text-xs">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> A dolor optio aut,</p>
+      </div>
+  
+      <div class="bg-white py-[25px] shadow-2xl">
+        <img class="mx-auto mb-2" src="./icons/icons8-cloud-50.png" alt="">
+        <h1 class="text-xl text-center">Cloud Development</h1>
+        <p class="text-xs">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> A dolor optio aut,</p>
+      </div>
+    </div>
+  
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-3 items-center justify-around mt-10 px-5 pb-10">
+      <div class="bg-white py-[25px] shadow-2xl">
+        <img class="mx-auto mb-2" src="./icons/icons8-laptop-50.png" alt="">
+        <h1 class="text-xl text-center">iOS Apps</h1>
+        <p class="text-xs">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> A dolor optio aut,</p>
+      </div>
+  
+      <div class="bg-white py-[25px] shadow-2xl">
+        <img class="mx-auto mb-2" src="./icons/icons8-phone-50.png" alt="">
+        <h1 class="text-xl text-center">Android Application</h1>
+        <p class="text-xs">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> A dolor optio aut,</p>
+      </div>
+  
+      <div class="bg-white py-[25px] shadow-2xl">
+        <img class="mx-auto mb-2" src="./icons/icons8-tablet-50.png" alt="">
+        <h1 class="text-xl text-center">UI/UX Design</h1>
+        <p class="text-xs">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. <br> A dolor optio aut,</p>
+      </div>
+    </div>
+  </section>
+  
 </body>
 </html>
